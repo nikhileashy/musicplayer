@@ -10,7 +10,7 @@ RUN apt-get update -y && \
         ffmpeg && \
     git clone https://github.com/ravana69/musicplayer.git && \
     cd musicplayer && \
-    git clone https://github.com/pytgcalls/pytgcalls/tree/32d6da5ef0d61ff6362feed424b117beede182f7.git && \
+    git clone https://github.com/ravana69/pytgcalls/.git && \
     cd pytgcalls && \
     npm install && \
     npm run prepare && \
