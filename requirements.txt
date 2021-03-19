@@ -1,5 +1,5 @@
 pyrogram
 TgCrypto
 python-dotenv
-youtube_dl
+youtube-dl
 youtube_search_python
