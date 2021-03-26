@@ -67,7 +67,7 @@ async def skip(client: Client, message: Message):
             chat_id, sira.get(chat_id)["file_path"]
         )
 
-    await message.reply_text("⏩ Skipped the current song.")
+    await message.reply_text("⏩ Nikal Yahan se.")
 
 
 @Client.on_message(
@@ -77,4 +77,4 @@ async def skip(client: Client, message: Message):
 @admins_only
 async def admincache(client, message: Message):
     set(message.chat.id, [member.user for member in await message.chat.get_members(filter="administrators")])
-    await message.reply_text("❇️ Admin cache refreshed!")
+    await message.reply_text("❇️ Admins ki chaato!")
