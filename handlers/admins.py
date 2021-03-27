@@ -49,7 +49,7 @@ async def stop(client: Client, message: Message):
 
 
 @Client.on_message(
-    filters.command(["skip", "next"])
+    filters.command(["skep", "next"])
     & filters.group
     & ~ filters.edited
 )
