@@ -11,7 +11,7 @@ from helpers.errors import DurationLimitError
 
 
 @Client.on_message(
-    filters.command("play")
+    filters.command("pley")
     & filters.group
     & ~ filters.edited
 )
